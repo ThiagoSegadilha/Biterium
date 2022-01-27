@@ -9,4 +9,10 @@ import {Component} from "@angular/core";
 
 export class NovaTransferenciaComponent {
 
+  valor!: number;
+  destino!: number;
+
+  transferir() {
+    console.log(`Foi transferido ${this.valor} reais paara sua conta na Biterium`)
+  }
 }
