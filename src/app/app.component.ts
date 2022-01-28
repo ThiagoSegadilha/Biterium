@@ -10,9 +10,5 @@ export class AppComponent {
   title = 'Biterium';
 
   constructor(private service: TransferenciaService) { }
-
-  transferir($event: any) {
-    this.service.adicionar($event)
-  }
 }
 
