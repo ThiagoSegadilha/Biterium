@@ -16,10 +16,10 @@ export class NovaTransferenciaComponent {
     console.log(`Foi transferido ${this.valor} reais paara sua conta na Biterium`)
     const valorEmitir = {valor: this.valor, destino: this.destino};
     this.aoTransferir.emit(valorEmitir);
-    this.limparCaamps();
+    this.limparCampos();
   }
 
-  limparCaamps() {
+  limparCampos() {
     this.valor = 0;
     this.destino = 0;
   }
