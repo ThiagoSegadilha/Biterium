@@ -1,7 +1,7 @@
 # Biterium
 
 Projeto [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
-O prejeto tratasse de uma tela para transferencia de disneiro e outra tela que exibe o historico de transferencias
+O prejeto tratasse de uma tela para transferencia de dinheiro e outra tela que exibe o historico de transferencias
 
 ## Development server
 
